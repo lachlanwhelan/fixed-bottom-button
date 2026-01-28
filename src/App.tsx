@@ -29,11 +29,11 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <Box position="fixed" bottom={0} right={0} left={0} top={0} backgroundColor="white" pointerEvents="none">
-          <Input type='search' fontSize="16px" placeholder="Chakra UI Input" mb="4" />
-        <Button position="absolute" left={0} right={0} bottom="env(safe-area-inset-bottom)" mb="4" colorScheme="teal" size="lg">
-          Click Me
-        </Button>
+      <Box position="fixed" top={0} bottom={0} left={0} right={0} bg="white" px="4" pt="4" pb="env(safe-area-inset-bottom)" boxShadow="0 -2px 10px rgba(0, 0, 0, 0.1)">
+        <Input type='search' fontSize="16px" placeholder="Chakra UI Input" mb="4" />
+      <Button position="absolute" left={0} right={0} bottom="env(safe-area-inset-bottom)" mb="4" colorScheme="teal" size="lg">
+        Click Me
+      </Button>
       </Box>
     </Box>
   )
